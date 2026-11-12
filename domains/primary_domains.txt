@@ -1,0 +1,22 @@
+# Primary domains: where the loop looks for an unusual phenomenon.
+# One per line. Blank lines and lines starting with # are ignored.
+Cellular Mechanics
+Mycology
+Astrophysics
+Marine Biology
+Immunology
+Queueing Theory
+Entomology
+Hermeneutics
+Neuroscience
+Plant Physiology
+Ornithology
+Fluid Dynamics
+Evolutionary Psychiatry
+Epidemiology
+Thermodynamics
+Oceanography
+Textile Weaving & Pattern Mechanics
+Meteorology
+Paleontology
+Gestalt Psychology

@@ -1,0 +1,34 @@
+[project]
+name = "creative-looper"
+version = "0.1.0"
+description = "Multi-agent CrewAI CLI that maps an unusual phenomenon from one domain onto another, pitches a novel built on it, then scores and rewrites the pitch with a hostile judge."
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[google-genai]>=1.15.30",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+creative-looper = "creative_looper.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/creative_looper"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.6",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["F", "E9", "I"]  # pyflakes, syntax errors, import order
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

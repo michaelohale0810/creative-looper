@@ -1,0 +1,7 @@
+# Target domains: where the phenomenon's mechanics get mapped to, and the novel is set.
+# One per line. Blank lines and lines starting with # are ignored.
+crazy Politics
+Football fanatics
+alternative Medieval History
+Sherlock Holmes era mystery
+Deep Space science fiction
